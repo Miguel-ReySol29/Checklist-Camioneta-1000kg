@@ -129,8 +129,8 @@
     </div>
 
     <div class="progress-card">
-      <div class="progress-top"><strong>Avance del expediente</strong><span id="count">0 de 22 elementos listos</span></div>
-      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="22" aria-valuenow="0"><div id="progress"></div></div>
+      <div class="progress-top"><strong>Avance del expediente</strong><span id="count">0 de 26 elementos listos</span></div>
+      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="26" aria-valuenow="0"><div id="progress"></div></div>
       <div class="toolbar">
         <button type="button" class="primary" onclick="window.print()">Imprimir checklist</button>
         <button type="button" class="secondary" id="clear">Desmarcar todo</button>
@@ -179,9 +179,13 @@
         <h2>Guardar en el CEDIS</h2>
         <p class="section-note">Expediente de inocuidad y trazabilidad disponible para revisión.</p>
 
+        <label class="item"><input type="checkbox" data-check><span><strong>Acuse del Aviso COFEPRIS</strong> <em class="badge required">Obligatorio</em><br><span class="detail">Expediente sanitario del establecimiento.</span></span></label>
         <label class="item"><input type="checkbox" data-check><span><strong>Facturas y trazabilidad de proveedores</strong> <em class="badge required">Obligatorio</em><br><span class="detail">Incluyendo documentos de las materias primas cárnicas adquiridas.</span></span></label>
         <label class="item"><input type="checkbox" data-check><span><strong>Registros de producción por lote</strong> <em class="badge required">Obligatorio</em><br><span class="detail">Cocción, enfriamiento, empaque al vacío, conservación, salida y recepción.</span></span></label>
-        <label class="item"><input type="checkbox" data-check><span><strong>Limpieza, desinfección y mantenimiento</strong> <em class="badge required">Obligatorio</em><br><span class="detail">Del CEDIS, equipos, contenedores y área de carga de la camioneta.</span></span></label>
+        <label class="item"><input type="checkbox" data-check><span><strong>Entradas y salidas por lote</strong> <em class="badge required">Obligatorio</em><br><span class="detail">Cantidad, fecha, origen y destino.</span></span></label>
+        <label class="item"><input type="checkbox" data-check><span><strong>Limpieza y desinfección</strong> <em class="badge required">Obligatorio</em><br><span class="detail">CEDIS, equipos y camioneta.</span></span></label>
+        <label class="item"><input type="checkbox" data-check><span><strong>Control de plagas y agua potable</strong> <em class="badge required">Obligatorio</em><br><span class="detail">Servicios, resultados y fechas.</span></span></label>
+        <label class="item"><input type="checkbox" data-check><span><strong>Capacitación del personal</strong> <em class="badge required">Obligatorio</em><br><span class="detail">Buenas prácticas de higiene, al menos anual.</span></span></label>
       </section>
     </main>
 
